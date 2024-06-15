@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestCaculatorCsv
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 12, Errors: 0, Skipped: 0, Time elapsed: 0.319 s <<< FAILURE! - in TestCaculatorCsv
+testAdd{int, int, int}[4]  Time elapsed: 0.02 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<5>
+	at TestCaculatorCsv.testAdd(TestCaculatorCsv.java:15)
+
+testAdd{int, int, int}[5]  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<10>
+	at TestCaculatorCsv.testAdd(TestCaculatorCsv.java:15)
+
+testAdd{int, int, int}[6]  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<1>
+	at TestCaculatorCsv.testAdd(TestCaculatorCsv.java:15)
+
+testDiv{int, int, double}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2.6666666666666665> but was:<0.0>
+	at TestCaculatorCsv.testDiv(TestCaculatorCsv.java:33)
+
+testDiv{int, int, double}[3]  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3.0> but was:<1.0>
+	at TestCaculatorCsv.testDiv(TestCaculatorCsv.java:33)
+
+testDiv{int, int, double}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4.5> but was:<4.0>
+	at TestCaculatorCsv.testDiv(TestCaculatorCsv.java:33)
+
+testDiv{int, int, double}[5]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<3.0> but was:<1.0>
+	at TestCaculatorCsv.testDiv(TestCaculatorCsv.java:33)
+
+testMul{int, int, int}[2]  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<5>
+	at TestCaculatorCsv.testMul(TestCaculatorCsv.java:27)
+
+testMul{int, int, int}[3]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<12> but was:<6>
+	at TestCaculatorCsv.testMul(TestCaculatorCsv.java:27)
+
+testSub{int, int, int}[2]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<3>
+	at TestCaculatorCsv.testSub(TestCaculatorCsv.java:21)
+
+testSub{int, int, int}[3]  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: expected:<4> but was:<1>
+	at TestCaculatorCsv.testSub(TestCaculatorCsv.java:21)
+
+testSub{int, int, int}[4]  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: expected:<5> but was:<2>
+	at TestCaculatorCsv.testSub(TestCaculatorCsv.java:21)
+
