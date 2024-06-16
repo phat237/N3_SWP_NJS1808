@@ -236,5 +236,9 @@ public class AuthenticationService implements UserDetailsService {
 
     public void deleteAccountById(long id) {
         authenticationRepository.deleteById(id);
+
+    }
+    public String toTest(){
+        return "Oke";
     }
 }
